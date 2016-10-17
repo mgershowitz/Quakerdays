@@ -1,4 +1,4 @@
-2$(document).ready(game);
+$(document).ready(game);
 
 let score= 0;                                                        // gives the user a score based on how long they've been playing the game
 setInterval(function gameScore(){
