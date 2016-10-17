@@ -1,0 +1,224 @@
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+#score {
+font-size: 2em;
+font-family: 'VT323', monospace;
+position: absolute;
+right: 2%;
+bottom: 1%;
+}
+
+#shakeThingsUp {
+  height: 75%;
+  width: 100%;
+  background-repeat: repeat-x;
+  -webkit-animation: animate_shakeThingsUp 6s linear infinite;
+  background: url('http://opengameart.org/sites/default/files/city_3.png');
+  }
+
+@keyframes  animate_shakeThingsUp {
+       from { background-position: 0 0; }
+       to { background-position: 100% 0; }
+   }
+
+#turtles {
+  position: absolute;
+  left: 39%;
+  bottom: 24%;
+}
+#turtles > img {
+height: 240px;
+  }
+
+#sailormoon > img {
+height: 140px;
+width: auto;
+position: absolute;
+z-index: -1;
+right: 5%;
+top: 2%;
+}
+
+#bart{
+    position: absolute;
+    top: 460px;
+    z-index: 20;
+
+  }
+
+#floor > img {
+    height: 180px;
+    width: 100em;
+    top: 75%;
+    right: -22%;
+    background-color: transparent;
+    position: absolute;
+  }
+
+  #robot > img {
+    height: 100px;
+    width: 140px;
+    position: absolute;
+    bottom: 13%;
+    right: 10px;
+    z-index: 21;
+}
+
+  #simpsons > img{
+    position: absolute;
+    left: -2%;
+    z-index: -10;
+    height: 200px;
+    width: auto;
+  }
+
+p {
+  color: white;
+  font-size: 4em;
+  position: absolute;
+  left: 42%;
+  font-family: 'VT323', monospace;
+
+}
+
+  #flash > img {
+  height: 130px;
+  width: auto;
+  position: absolute;
+  left: 40%;
+  bottom: 14%;
+  z-index: 21;
+  -webkit-transform: scaleX(-1);
+  }
+
+#spiderman > img {
+  position: absolute;
+  bottom: 14%;
+  -webkit-transform: scaleX(-1);
+  z-index: 21;
+}
+
+#score{
+  color: yellow;
+}
+
+@media only screen and (max-width: 1000px){
+
+
+
+  body {
+      background-color: black;
+      overflow: hidden;
+  }
+
+  #score {
+  font-size: 2em;
+  font-family: 'VT323', monospace;
+  position: absolute;
+  right: 2%;
+  bottom: 1%;
+  }
+
+  #shakeThingsUp {
+    height: 45%;
+    width: 100%;
+    background-repeat: repeat-x;
+    -webkit-animation: animate_shakeThingsUp 6s linear infinite;
+    background: url('http://opengameart.org/sites/default/files/city_3.png');
+    }
+
+  @keyframes  animate_shakeThingsUp {
+         from { background-position: 0 0; }
+         to { background-position: 100% 0; }
+     }
+
+  #turtles {
+    position: absolute;
+    left: 36%;
+    bottom: 60%;
+  }
+  #turtles > img {
+  height: 240px;
+    }
+
+  #sailormoon > img {
+  height: 130px;
+  width: auto;
+  position: absolute;
+  z-index: -1;
+  right: 5%;
+  top: 2%;
+  }
+
+
+  #bart{
+      position: absolute;
+      top: 460px;
+      z-index: 20;
+
+    }
+
+  #floor > img {
+      height: 180px;
+      width: 100em;
+      top: 40%;
+      right: -22%;
+      background-color: transparent;
+      position: absolute;
+    }
+
+    #robot > img {
+      height: 100px;
+      width: 140px;
+      position: absolute;
+      top: 38%;
+      right: 10px;
+      z-index: 21;
+  }
+
+    #simpsons > img{
+      position: absolute;
+      left: -2%;
+      z-index: -10;
+      height: 200px;
+      width: auto;
+    }
+
+  p {
+    color: white;
+    font-size: 4em;
+    position: absolute;
+    left: 42%;
+    font-family: 'VT323', monospace;
+
+  }
+
+    #flash > img {
+    height: 130px;
+    width: auto;
+    position: absolute;
+    left: 40%;
+    top: 38%;
+    z-index: 21;
+    -webkit-transform: scaleX(-1);
+    }
+
+  #spiderman > img {
+    position: absolute;
+    top: 38%;
+    -webkit-transform: scaleX(-1);
+    z-index: 21;
+  }
+
+  #score{
+    color: yellow;
+    top: 50%;
+  }
+
+
+
+
+}

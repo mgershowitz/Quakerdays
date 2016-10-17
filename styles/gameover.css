@@ -1,0 +1,60 @@
+body {
+  background-color: #000;
+}
+
+p {
+  color: #00ff00;
+  font-size: 12em;
+  position: absolute;
+  left: 20.5%;
+  font-family: 'VT323', monospace;
+  top: 28%;
+}
+
+p:hover {
+  color: #e5e500;
+}
+
+#sailormoon > img {
+  position: absolute;
+  left: 25.3%;
+}
+
+button {
+  background-color: #7f0000;
+  border: none;
+  position: absolute;
+  bottom: 10%;
+  left: 46%;
+  border-radius: 80%;
+  height: 60px;
+  font-size: 12px;
+}
+
+button a{
+  text-decoration: none;
+  color: white;
+
+}
+
+
+@media only screen and (max-width: 1000px){
+#sailormoon > img {
+  position: absolute;
+  left: 21%;
+  top: 13.6%;
+}
+
+button {
+  position: absolute;
+  bottom: 40%;
+  left: 48%;
+}
+
+p {
+  left: 15%;
+}
+
+
+
+}

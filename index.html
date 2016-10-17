@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>QuakeSk8 &copy;</title>
+    <link rel='stylesheet' href='styles/index.css'>
+    <script src='http://code.jquery.com/jquery-1.9.1.min.js'></script>
+    <link href='https://fonts.googleapis.com/css?family=Permanent+Marker|Lato|Architects+Daughter' rel='stylesheet'> <!-- fonts -->
+
+  </head>
+  <body>
+    <div class='flex-container'>
+<div id='userform'>
+    <form>
+    <h1 id='sk8'>QUAKE SKATE</h1>
+    <input id='userinfo-email'type='text' name='mail' placeholder='Email'>
+    <input id='user-name'type='text' name='username' placeholder='Username'>
+    <a href='https://www.facebook.com/'><img id='fb-button' src='styles/images/fb-button.png'></a>
+    <a href='https://plus.google.com/'><img id='google-button' src='styles/images/google-button.png'></a>
+    <button id='game'><a href='landing.html'>Continue to game</a></button>
+    </form>
+</div>
+
+<aside>
+<div id='sign-up'>
+  <input id='user-first'type='text' name='mail' placeholder='First'>
+  <input id='user-last'type='text' name='username' placeholder='Last'>
+  <input id='usernm-choice'type='text' name='userchoice' placeholder='Choose your username'>
+  <input id='pswd'type='text' name='password' placeholder='Create a password'>
+  <input id='confirm-pswd'type='text' name='confirm' placeholder='Confirm your password'><br />
+
+
+  <select id='birthday' name='birth-day' class='drop-list'>
+      <option value='day' selected>Day</option>
+      <option value='day31'>31</option>
+      <option value='day30'>30</option>
+      <option value='day29'>29</option>
+      <option value='day28'>28</option>
+      <option value='day27'>27</option>
+      <option value='day26'>26</option>
+      <option value='day25'>25</option>
+      <option value='day24'>24</option>
+      <option value='day23'>23</option>
+      <option value='day22'>22</option>
+      <option value='day21'>21</option>
+      <option value='day20'>20</option>
+      <option value='day19'>19</option>
+      <option value='day18'>18</option>
+      <option value='day17'>17</option>
+      <option value='day16'>16</option>
+      <option value='day15'>15</option>
+      <option value='day14'>14</option>
+      <option value='day13'>13</option>
+      <option value='day12'>12</option>
+      <option value='day11'>11</option>
+      <option value='day10'>10</option>
+      <option value='day9'>9</option>
+      <option value='day8'>8</option>
+      <option value='day7'>7</option>
+      <option value='day6'>6</option>
+      <option value='day5'>5</option>
+      <option value='day4'>4</option>
+      <option value='day3'>3</option>
+      <option value='day2'>2</option>
+      <option value='day1'>1</option>
+
+  </select>
+
+  <select id='month-list' name='birthmonth' class='drop-list'>
+      <option value='month' selected>Month</option>
+      <option value='jan'>January</option>
+      <option value='feb'>Febuary</option>
+      <option value='mar'>March</option>
+      <option value='apr'>April</option>
+      <option value='may'>May</option>
+      <option value='june'>June</option>
+      <option value='july'>July</option>
+      <option value='aug'>August</option>
+      <option value='sept'>September</option>
+      <option value='oct'>October</option>
+      <option value='nov'>November</option>
+      <option value='dec'>December</option>
+  </select>
+
+  <input id='birth-year'type='text' name='year' placeholder='Year'>
+
+  <select id='gender' name='sex' class='genders'>
+      <option value='gen' selected>Gender</option>
+      <option value='fm'>Female</option>
+      <option value='ml'>Male</option>
+</select>
+<button id='sign'><a href='landing.html'>Sign Up</a></button>
+
+</form>
+
+<img id='skaterdude' src=styles/images/marty.gif>
+  </div>
+</aside>
+
+<div id='gameplay'>
+  <h3>Game play</h3>
+<img id='left' src='styles/images/left.png' alt='left arrow key'>
+<img id='right' src='styles/images/left.png' alt='right arrow key'> <br />
+<img id='space' src='styles/images/spacebar.png' alt='spacebar key'>
+<p>THERE HAS BEEN A MASSIVE 10.01 EARTHQUAKE IN NEW YORK CITY. THE CITY IS FALLING APART,
+  BUILDINGS CRUMBLING, HEROES ASSEMBLING. YOUR GOAL IS TO MAKE IT OUT ALIVE. WITH THE SPACEBAR JUMP OVER THE OBSTACLES AT
+  THEIR INCREASING SPEED, WITH THE ARROW KEYS GO LEFT OR RIGHT. OVER COME ANYTHING OR ANYONE THAT GETS IN YOUR WAY IN ORDER TO MAKE IT OUT ALIVE!</p>
+</div>
+
+
+</div>
+
+    <audio class = 'music' autoplay loop id='game-music'>
+    <source src='audio/oneForTheRoad.mp3' type='audio/mpeg'>
+  </audio>
+
+    <header>
+      <video class='videos' autoplay loop id='background'>
+        <source src='audio/quake.mp4.mov' type='video/mp4'>
+      </video>
+    </header>
+
+      <script src='scripts/index.js'></script>
+  </body>
+</html>
